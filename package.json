@@ -1,0 +1,36 @@
+{
+  "name": "fhirx",
+  "version": "1.0.15",
+  "description": "Library to generate typescript classes from Fhir structure definition JSON",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": "dist/bin/fhirx.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zombitrafik/fhirx.git"
+  },
+  "keywords": [
+    "fhir",
+    "typescript",
+    "library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zombitrafik/fhirx/issues"
+  },
+  "homepage": "https://github.com/zombitrafik/fhirx/issues#readme",
+  "author": "Vladislav Mozhayskiy <zombitrafik05@gmail.com>",
+  "dependencies": {
+    "@types/pluralize": "^0.0.30",
+    "pluralize": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  }
+}
